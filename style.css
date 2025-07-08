@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f3dac4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  border: 2px solid #dda9f7;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #fffdf9;
+  box-shadow: 0 0 30px rgba(163, 61, 214, 0.3);
+  text-align: center;
+  width: 500px;
+
+}
+.container2 {
+  border: 2px solid #dda9f7;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #fffdf9;
+  box-shadow: 0 0 30px rgba(163, 61, 214, 0.3);
+  text-align:end;
+  width: 500px;
+  gap: 1000px; 
+}
+
+
+.container3 {
+  border: 2px solid #dda9f7;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #fffdf9;
+  box-shadow: 0 0 30px rgba(163, 61, 214, 0.3);
+  text-align:end;
+  width: 500px;
+  gap: 1000px; 
+}
+
+.container:hover{
+    background-color: #eadef0;
+}
+.container2:hover{
+    background-color: #eadef0;
+}
+.container3:hover{
+    background-color: #eadef0;
+}
+
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 60%;
+  margin-bottom: 30px;
+  border: 2px solid #cc66ff;
+}
+.side-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: left;
+  border-radius: 60%;
+  margin-bottom: 30px;
+  border: 2px solid #cc66ff;
+}
+
+/* Main heading (About Me) */
+h1 {
+  font-family: 'Georgia', cursive;
+  font-size: 50px;
+  color: #f45999;
+  text-shadow: 0 0 8px #ff3399, 0 0 10px #ff99cc;
+  margin: 10px 0;
+}
+
+/* Name and subtitle */
+h2{
+  color: #f45999;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+h3{
+  margin: 0;
+  color: #f45999;
+  font-weight: 500;
+}
+p1{
+    position: right;
+}
